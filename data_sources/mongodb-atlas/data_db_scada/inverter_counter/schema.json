@@ -1,1 +1,25 @@
-{}
+{
+    "properties": {
+        "counter": {
+            "bsonType": "long"
+        },
+        "counter_date": {
+            "bsonType": "date"
+        },
+        "id": {
+            "bsonType": "objectId"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "properties": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "name",
+        "counter",
+        "counter_date"
+    ],
+    "title": "inverter_counter"
+}
